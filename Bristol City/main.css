@@ -1,0 +1,387 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.topnav {
+    background-color: whitesmoke;
+    overflow: hidden;
+    font-family: monospace;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: red;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: red;
+    color: white;
+  }
+
+.top{
+    background-color: whitesmoke;
+    height: 200px;
+    padding-top: 2px;
+}
+
+.topfindus{
+  background-color: whitesmoke;
+  height: 200px;
+  padding-top: 48px;
+}
+
+.Header{
+  background-color: red;
+  height: 100px;
+  padding-top: 2px;
+  padding-bottom: 0px;
+  text-align: 50%;
+}
+
+.body{
+  background-color: whitesmoke;
+  height: auto;
+  padding: 0px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.bodycontact{
+  background-color: whitesmoke;
+  height: auto;
+  padding: 0px;
+}
+
+.playerlist{
+    background-color:whitesmoke;
+    height: auto;
+    padding-top: 2px;
+}
+
+.CultureBody{
+  background-color:whitesmoke;
+  height: auto;
+  padding-top: 2px;
+}
+
+h1{
+    font-family: monospace;
+    opacity: 0.4;
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 120px;
+}
+
+h2{
+    font-family: monospace;
+    color:whitesmoke;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 0.3;
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    
+}
+
+h5{
+  font-family: monospace;
+  color:red;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 70px;
+}
+
+
+
+.titleSize{
+  font-family: monospace;
+  color:red;
+  text-align: center;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 5px;
+  margin-top: 0px;
+  padding-top: 3px;
+}
+
+.column50 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  margin-top: 0px;
+  padding-top: 3px;
+}
+.columnMatches {
+  float: center;
+  width: 100%;
+  padding: 5px;
+  margin-top: 0px;
+  padding-top: 3px;
+  border: 1px;
+}
+
+.centreLogo{
+  text-align: center;
+}
+
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+    .column50 {
+      width: 100%;
+      margin: 0px;
+    }
+   
+    .ashton8{
+      padding-left: 0px;
+    }
+  }
+
+  @media screen and (max-width: 1400px) {
+    .body{
+      width: 100%;
+      margin: 0px;
+    }
+  
+  }
+
+
+
+* {box-sizing: border-box}
+
+.container {
+  position: relative;
+  
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  font-family: monospace;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+body, html {
+  height: 100%;
+}
+
+.hero-image {
+background-image: url("http://www.tothe92.co.uk/groundguide/images/pic/bristolcity/ashton_gate_panoramic.jpg");
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.hero-imageMatches {
+  background-image: url("https://architectureinmotion.com/wp-content/uploads/2014/11/bcfc-still-for-web__09390.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+
+.hero-imageCulture {
+  background-image: url("https://e3.365dm.com/16/07/2048x1152/cegrab-20130905-004455-619-1_3640483.jpg?20160706032506");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+
+.hero-imagefindus {
+  background-image: url("https://www.printwaste.co.uk/wp-content/uploads/2020/07/banner-bristol.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+
+.hero-image82 {
+  background-image: url("https://i2-prod.bristolpost.co.uk/incoming/article3839559.ece/ALTERNATES/s1200/0_JMP_Bristol_City_v_Barnsley_NJ170.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+
+.hero-imageleg {
+  background-image: url("https://pbs.twimg.com/media/Fjh3id-WYAAfbHr?format=png&name=small");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+
+.hero-text {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: red;
+  opacity: 0.8;
+} 
+
+.button1:hover{
+  opacity: 1;
+}
+
+.buttoncenter{
+  text-align: center;
+}
+
+.hooliganimg{
+  text-align: left;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  padding-top: 30px;
+}
+
+.video{
+  padding-top: 15px;
+}
+
+.legends{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: red;
+}
+
+/* Style the container/contact section */
+.containercontact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.columncontact {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columncontact, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+p{
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.map{
+  padding-left: 200px;
+  padding-bottom: 50px;
+}
